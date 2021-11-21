@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="h-screen bg-blue-400 flex flex-col justify-center items-center">
+    <div
+      class="
+        flex flex-col
+        justify-center
+        items-center
+        bg-white
+        px-8
+        py-8
+        border-4 border-dotted border-green-400
+      "
+    >
+      <label for="full name" class="text-green-700 text-sm font-bold"
+        >Full name</label
+      >
+      <input
+        type="text"
+        id="full_name"
+        placeholder="Enter your full name"
+        class="mt-4 shadow-lg border rounded text-gray-500 w-64"
+      />
+      <button
+        class="
+          mt-4
+          w-16
+          h-8
+          bg-green-500
+          rounded-lg
+          text-white
+          font-bold
+          hover:bg-green-600 hover:text-black
+        "
+      >
+        Save
+      </button>
+    </div>
+  </body>
+</html>
